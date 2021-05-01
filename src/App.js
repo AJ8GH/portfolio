@@ -6,6 +6,7 @@ export default function App () {
     <div className="App">
       <header className="App-header">
         <p>
+          Adam Jonas
         </p>
       </header>
     </div>
