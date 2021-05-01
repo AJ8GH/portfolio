@@ -17,6 +17,12 @@
     "plugins": [
         "react"
     ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "ignorePatterns": ["cypress/**", "node_modules/**", "**/*.test.js"],
     "rules": {
     }
 }
