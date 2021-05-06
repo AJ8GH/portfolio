@@ -45,5 +45,17 @@ describe('Home page', () => {
       cy.get('.projectsLink')
         .should('have.attr', 'href', '#projects')
     })
+
+    it('has about link', () => {
+      cy.visit('/')
+      cy.get('.aboutLink')
+        .should('have.attr', 'href', '#about')
+    })
+
+    it('has contact link', () => {
+      cy.visit('/')
+      cy.get('.contactLink')
+        .should('have.attr', 'href', '#contact')
+    })
   })
 })
