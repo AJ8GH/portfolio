@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9448d5c6.chunk.css",
-    "main.js": "/portfolio/static/js/main.62d42c30.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.62d42c30.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.98df11ce.chunk.css",
+    "main.js": "/portfolio/static/js/main.0b82aa93.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0b82aa93.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.51553de9.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.51553de9.js.map",
     "static/js/2.dc56dd85.chunk.js": "/portfolio/static/js/2.dc56dd85.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a9e4f123.chunk.js": "/portfolio/static/js/3.a9e4f123.chunk.js",
     "static/js/3.a9e4f123.chunk.js.map": "/portfolio/static/js/3.a9e4f123.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9448d5c6.chunk.css.map": "/portfolio/static/css/main.9448d5c6.chunk.css.map",
+    "static/css/main.98df11ce.chunk.css.map": "/portfolio/static/css/main.98df11ce.chunk.css.map",
     "static/js/2.dc56dd85.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dc56dd85.chunk.js.LICENSE.txt",
     "static/media/AdamJonasCV.56bce994.pdf": "/portfolio/static/media/AdamJonasCV.56bce994.pdf",
     "static/media/App.css": "/portfolio/static/media/Varela-Regular.b9379c2f.ttf"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.51553de9.js",
     "static/js/2.dc56dd85.chunk.js",
-    "static/css/main.9448d5c6.chunk.css",
-    "static/js/main.62d42c30.chunk.js"
+    "static/css/main.98df11ce.chunk.css",
+    "static/js/main.0b82aa93.chunk.js"
   ]
 }
