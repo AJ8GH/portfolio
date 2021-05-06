@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactLinks from './ContactLinks'
+import PageLinks from './PageLinks'
 import './styles/App.css'
 
 export default function App () {
@@ -8,6 +9,7 @@ export default function App () {
       <div className="container">
         <header className="App-header">
           <div className="links">
+            <PageLinks />
             <ContactLinks />
           </div>
           <h1>Adam Jonas</h1>
