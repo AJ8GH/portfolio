@@ -17,4 +17,9 @@ describe('Home page', () => {
     cy.visit('/')
     cy.get('.github')
   })
+
+  it('has CV link', () => {
+    cy.visit('/')
+    cy.get('.cv')
+  })
 })
