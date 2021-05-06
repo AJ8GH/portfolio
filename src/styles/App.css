@@ -3,6 +3,7 @@
   border: 0;
   margin: 0;
   font-family: Varela;
+  background-color: #EAE7DC;
 }
 
 @font-face {
@@ -28,8 +29,9 @@
 h1 {
   text-align: center;
   max-width: 55%;
-  padding: 20px;
-  color: #E85A4F
+  padding: 10px;
+  color: #E85A4F;
+  font-size: 60px;
 }
 
 .links {
@@ -38,7 +40,7 @@ h1 {
 
 .app {
   min-height: 100vh;
-  background-color: #EAE7DC;
+  background-color: #D8C3A5;
 }
 
 .container {
