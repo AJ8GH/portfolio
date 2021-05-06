@@ -28,4 +28,10 @@ describe('Home page', () => {
     cy.get('.cvLink')
       .should('have.attr', 'href')
   })
+
+  it('has portrait', () => {
+    cy.visit('/')
+    cy.get('.portrait')
+      .should('have.attr', 'alt', 'Image of Adam')
+  })
 })
