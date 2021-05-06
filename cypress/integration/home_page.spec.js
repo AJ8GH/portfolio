@@ -12,4 +12,9 @@ describe('Home page', () => {
     cy.visit('/')
     cy.get('.linkedin')
   })
+
+  it('has GitHub link', () => {
+    cy.visit('/')
+    cy.get('.github')
+  })
 })
