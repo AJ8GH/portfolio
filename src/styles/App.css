@@ -1,8 +1,49 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  font-family: Varela;
+}
+
+@font-face {
+  font-family: "Varela";
+  src: local("Varela"),
+   url("./fonts/Varela/Varela-Regular.ttf") format("truetype");
+  }
+
 .portrait {
   width: 300px;
   float:right;
+  border-radius: 30px;
 }
 
 .intro {
-  max-width: 50%;
+  max-width: 40%;
+  padding: 20px;
+  color: #8E8D8A;
+  text-align: center;
+  position: absolute;
+}
+
+h1 {
+  text-align: center;
+  max-width: 55%;
+  padding: 20px;
+  color: #E85A4F
+}
+
+.links {
+  padding: 20px;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #EAE7DC;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: #EAE7DC;
+  min-height: 100vh;
 }

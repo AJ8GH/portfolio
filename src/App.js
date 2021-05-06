@@ -4,16 +4,18 @@ import './styles/App.css'
 
 export default function App () {
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
-        <ContactLinks />
         <header className="App-header">
+          <div className="links">
+            <ContactLinks />
+          </div>
           <h1>Adam Jonas</h1>
 
           <div className="intro">
-            <p>Welcome to my portfolio</p>
-            <p>I am a passionate and curious engineer, excited by building products with high quality code</p>
-            <p>Please enjoy looking through my work and contact me if you have any questions at all!</p>
+            <p>Welcome to my portfolio</p><br></br>
+            <p>I am a Junior Software Engineer with passion, curioristy and a strong desire to learn. I get excited about writing high quality code, practiscing test driven development, and building awesome apps and products.</p><br></br>
+            <p>Enjoy looking through my work and please feel free to contact me, download my CV or checkout my Github and linkedIn profiles</p>
           </div>
         </header>
 
