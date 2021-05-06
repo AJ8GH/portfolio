@@ -13,7 +13,7 @@ export default function ContactLinks () {
         <img src={process.env.PUBLIC_URL + '/github.png'} className="github" />
       </a>
 
-      <a href={Cv} target="_blank" rel="noreferrer">
+      <a href={Cv} target="_blank" rel="noreferrer" className="cvLink">
         <img src={process.env.PUBLIC_URL + '/cv.png'} className="cv" />
       </a>
     </div>

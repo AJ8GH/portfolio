@@ -25,5 +25,7 @@ describe('Home page', () => {
   it('has CV link', () => {
     cy.visit('/')
     cy.get('.cv')
+    cy.get('.cvLink')
+      .should('have.attr', 'href')
   })
 })
