@@ -7,4 +7,9 @@ describe('Home page', () => {
     cy.visit('/')
     cy.contains('Adam Jonas')
   })
+
+  it('has LinkedIn link', () => {
+    cy.visit('/')
+    cy.get('.linkedin')
+  })
 })
