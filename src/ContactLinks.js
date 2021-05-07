@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles/ContactLinks.css'
 import Cv from './documents/AdamJonasCV.pdf'
+import './styles/ContactLinks.css'
 
 export default function ContactLinks () {
   return (

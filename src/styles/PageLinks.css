@@ -1,0 +1,9 @@
+.aboutLink, .projectsLink, .contactLink {
+  background-color: #E98074;
+  padding: 15px;
+  border-radius: 10px;
+  color: #FFF;
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+}

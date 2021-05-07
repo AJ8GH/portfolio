@@ -9,8 +9,8 @@ export default function App () {
       <div className="container">
         <header className="App-header">
           <div className="links">
-            <PageLinks />
-            <ContactLinks />
+            <PageLinks className="pageLinks"/>
+            <ContactLinks className="contactLinks" />
           </div>
           <h1>Adam Jonas</h1>
 

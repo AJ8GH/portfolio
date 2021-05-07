@@ -36,6 +36,8 @@ h1 {
 
 .links {
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .app {
