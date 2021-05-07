@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactLinks from './ContactLinks'
 import PageLinks from './PageLinks'
+import About from './About'
 import './styles/App.css'
 
 export default function App () {
@@ -22,6 +23,8 @@ export default function App () {
         </header>
 
         <img src={process.env.PUBLIC_URL + '/portrait.JPG'} className="portrait" alt="Image of Adam" />
+
+        <About />
       </div>
     </div>
   )
