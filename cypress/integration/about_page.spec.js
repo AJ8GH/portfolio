@@ -3,4 +3,10 @@ describe('About page', () => {
     cy.visit('/')
       cy.contains('About Me')
   })
+
+  it('displays its paragraph', () => {
+    cy.visit('/')
+      cy.get('.aboutParagraph')
+      .contains('Makers Academy')
+  })
 })
