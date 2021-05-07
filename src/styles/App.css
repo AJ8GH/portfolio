@@ -16,6 +16,7 @@
   width: 300px;
   float:right;
   border-radius: 30px;
+  padding: 10px;
 }
 
 .intro {
@@ -37,6 +38,7 @@ h1 {
 .links {
   padding: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
