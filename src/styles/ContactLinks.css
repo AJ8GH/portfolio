@@ -3,3 +3,7 @@
   padding: 10px;
   float: right;
 }
+
+.linkedin:hover, .github:hover, .cv:hover {
+  opacity: 50%;
+}

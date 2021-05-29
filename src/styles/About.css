@@ -1,5 +1,11 @@
 h2 {
-  font-size: 20px;
+  margin-top: 200px;
+  padding: 20px;
+  font-size: 30px;
   color: #E85A4F;
-  background-color: black;
+}
+
+.aboutParagraph {
+  color: #8E8D8A;
+  padding: 20px;
 }

@@ -19,22 +19,22 @@ describe('Home page', () => {
   describe('ContactLinks', () => {
     it('has LinkedIn link', () => {
       cy.visit('/')
-      cy.get('.linkedin')
-      cy.get('.linkedinLink')
+      cy.get('#linkedin')
+      cy.get('#linkedinLink')
       .should('have.attr', 'href', 'https://www.linkedin.com/in/adamjonas1/')
     })
 
     it('has GitHub link', () => {
       cy.visit('/')
-      cy.get('.github')
-      cy.get('.githubLink')
+      cy.get('#github')
+      cy.get('#githubLink')
       .should('have.attr', 'href', 'https://github.com/AJ8GH')
     })
 
     it('has CV link', () => {
       cy.visit('/')
-      cy.get('.cv')
-      cy.get('.cvLink')
+      cy.get('#cv')
+      cy.get('#cvLink')
       .should('have.attr', 'href')
     })
   })
