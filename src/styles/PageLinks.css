@@ -7,3 +7,7 @@
   margin-right: 10px;
   text-decoration: none;
 }
+
+.aboutLink:hover, .projectsLink:hover, .contactLink:hover {
+  opacity: 50%;
+}
