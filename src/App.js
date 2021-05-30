@@ -1,7 +1,7 @@
 import React from 'react'
-import ContactLinks from './ContactLinks'
-import PageLinks from './PageLinks'
-import About from './About'
+import ContactLinks from './components/ContactLinks'
+import PageLinks from './components/PageLinks'
+import About from './components/About'
 import './styles/App.css'
 
 export default function App () {

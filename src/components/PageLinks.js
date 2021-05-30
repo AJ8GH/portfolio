@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/PageLinks.css'
+import '../styles/PageLinks.css'
 
 export default function PageLinks () {
   return (

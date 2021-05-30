@@ -10,4 +10,5 @@
 
 .aboutLink:hover, .projectsLink:hover, .contactLink:hover {
   opacity: 50%;
+  transform: scale(1.2)
 }

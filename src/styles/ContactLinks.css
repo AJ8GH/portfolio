@@ -6,4 +6,5 @@
 
 .linkedin:hover, .github:hover, .cv:hover {
   opacity: 50%;
+  transform: scale(1.2);
 }
