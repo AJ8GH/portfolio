@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest test/*.js",
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
     "lint": "eslint src/**/*.js",
@@ -44,15 +44,20 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^27.0.2",
     "bootstrap": "^5.0.0",
     "cypress": "^7.2.0",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "eslint": "^7.25.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.2",
-    "react-bootstrap": "^1.5.2"
+    "react-bootstrap": "^1.5.2",
+    "react-test-renderer": "^17.0.2"
   }
 }
